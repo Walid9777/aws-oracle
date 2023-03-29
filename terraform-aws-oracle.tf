@@ -48,7 +48,7 @@ resource "aws_db_instance" "oracle_instance" {
   identifier           = "oracle-instance"
   allocated_storage    = 20
   engine               = "oracle-se2"
-  #engine_version       = "19.0.0.0.ru-2021-07.rur-2021-07.r1"
+  engine_version       = "19.0.0.0.ru-2021-07.rur-2021-07.r1"
   instance_class       = "db.t3.micro"
   name                 = "myoracledb"
   username             = "oracleuser"
